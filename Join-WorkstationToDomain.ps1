@@ -1,0 +1,1 @@
+﻿Add-Computer -ComputerName poshdevWS -Credential (Get-Credential -Message "Enter Domain Credentials") -DomainName "poshdev.local" -Restart
